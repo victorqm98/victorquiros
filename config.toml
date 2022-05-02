@@ -1,3 +1,119 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://victorquiros.com/"
+languageCode = "es-es"
+title = "Blog de Victor Quiros"
+paginate = 5
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+googleAnalytics = "UA-123-45"
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Blog de Victor Quiros"
+description = "Blog personal de Victor Quiros"
+keywords = [ "Blog", "Portfolio", "Victor Quiros" ]
+author = "Victor Quiros"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = true
+
+[params.assets]
+favicon = "/icon/favicon.ico"
+favicon16x16 = "/icon/favicon-16x16.png"
+favicon32x32 = "/icon/favicon-32x32.png"
+apple_touch_icon = "/icon/apple-icon-180x180.png"
+safari_pinned_tab = "/icon/favicon-32x32.png"
+
+[params.label]
+text = "Victor Quiros"
+icon = ""
+iconHeight = 35
+
+[params.homeInfoParams]
+Title = "Hola 👋"
+Content = """
+Bienvenido a mi blog. Aquí vas a encontrar post relacionados con la **programación** y **cursos que he realizado que me parezcan interesantes**
+(iré subiendo contenido cuando me vea inspirado 😎).
+* Backend Developer en [Housfy.com](https://housfy.com)
+* Me encanta trabajar en nuevos desafíos, aprender de mis compañeros, ser productivo y crecer.
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/victorqm98"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/victorqm98"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/victorquiros/"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:victorquirosmayer@gmail.com"
+
+[params.analytics.google]
+SiteVerificationTag = "G-FBNZ17BKT4"
+
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+[params.cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
+
+[params.editPost]
+URL = "https://github.com/victorqm98/victorquiros/content"
+Text = "Sugerir Cambios"
+appendFilePath = true
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+name = "Archivo"
+url = "archivo"
+weight = 5
+
+[[menu.main]]
+name = "Buscar"
+url = "buscar/"
+weight = 10
+
+[[menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 10
+
+[outputs]
+home = [ "HTML", "RSS" ]
