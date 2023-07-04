@@ -5,9 +5,11 @@ draft: false
 ---
 
 Hola 👋
-Bienvenido a mi blog. Aquí vas a encontrar post relacionados con la programación y cursos que he realizado que me 
-parezcan interesantes (iré subiendo contenido cuando me vea inspirado 😎).
+Te doy la bienvenida a mi blog, un espacio dedicado a la programación y los cursos que he realizado y que considero
+interesantes (publicaré contenido cuando la inspiración me visite 😎). Aquí encontrarás una variedad de posts 
+relacionados con el apasionante mundo de la programación, donde compartiré mis experiencias, 
+conocimientos y recomendaciones.
 
-Backend Developer en Housfy.com.
+Backend Developer en Stockagile.com.
 
 Me encanta trabajar en nuevos desafíos, aprender de mis compañeros, ser productivo y crecer.
