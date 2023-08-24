@@ -39,7 +39,7 @@ tocopen = true
 favicon = "/icon/favicon.ico"
 favicon16x16 = "/icon/favicon-16x16.png"
 favicon32x32 = "/icon/favicon-32x32.png"
-apple_touch_icon = "/icon/apple-icon-180x180.png"
+apple_touch_icon = "/icon/apple-touch-icon.png"
 safari_pinned_tab = "/icon/favicon-32x32.png"
 
 [params.label]
@@ -63,10 +63,6 @@ name = "github"
 url = "https://github.com/victorqm98"
 
 [[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com/victorqm98"
-
-[[params.socialIcons]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/victorquiros/"
 
@@ -87,11 +83,6 @@ SiteVerificationTag = "XYZabc"
 hidden = true
 hiddenInList = true
 hiddenInSingle = true
-
-[params.editPost]
-URL = "https://github.com/victorqm98/victorquiros/content"
-Text = "Sugerir Cambios"
-appendFilePath = true
 
 [params.fuseOpts]
 isCaseSensitive = false

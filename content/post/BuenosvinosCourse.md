@@ -1,10 +1,10 @@
 ---
 title: "Curso Carlos Buenosvinos"
-date: 2023-04-21T20:44:30+02:00
+date: 2022-05-21T20:44:30+02:00
 draft: false
 ---
 
-Hace 3 años, tuve la suerte de pertenecer a la empresa Omatech.com, quienes se encargaron de contactar con 
+Hace 2 años, tuve la suerte de pertenecer a la empresa Omatech.com, quienes se encargaron de contactar con 
 Carlos Buenosvinos para que nos impartiera un curso de 3 días sobre arquitectura hexagonal y testing en Laravel.
 
 Fue una experiencia que siempre agradeceré, ya que me ayudo a introducirme en las buenas prácticas de arquitectura y
