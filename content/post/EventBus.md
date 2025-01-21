@@ -1,5 +1,5 @@
 ---
-title: "Don't repeat yourself"
+title: "Cómo implementé un Event Bus en mi empresa"
 date: 2024-01-08T20:44:30+02:00
 draft: false
 ---
