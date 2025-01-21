@@ -17,23 +17,23 @@ Las cláusulas de guarda permiten salir temprano de una función si no se cumple
 ### Sin cláusulas de guarda
 
 ```python
-def procesar_pedido(pedido):
-    if pedido is not None:
-        if pedido.estado == "pendiente":
-            if pedido.total > 0:
-                print("Pedido procesado.")
+def process_order(order):
+    if order is not None:
+        if order.status == "pending":
+            if order.total > 0:
+                print("Order processed.")
 ```
 
 ### Con cláusulas de guarda:
 ```python
-def procesar_pedido(pedido):
-    if pedido is None:
+def process_order(order):
+    if order is None:
         return
-    if pedido.estado != "pendiente":
+    if order.status != "pending":
         return
-    if pedido.total <= 0:
+    if order.total <= 0:
         return
-    print("Pedido procesado.")
+    print("Order processed.")
 ```
 
 ## Ventajas
